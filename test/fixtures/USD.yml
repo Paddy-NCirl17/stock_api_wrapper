@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.worldtradingdata.com/api/v1/forex?api_token=wCXU99OVMZlQXR2wql80tzR9mw7nQlWiEgOcW3nZw5jGlRMXropsxi1wHZLJ&base=USD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.15.8
+      Date:
+      - Thu, 02 Apr 2020 13:56:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - no-cache, private
+      X-Dailylimit-Limit:
+      - '250'
+      X-Dailylimit-Remaining:
+      - '238'
+      X-Dailyintradaylimit-Limit:
+      - '25'
+      X-Dailyintradaylimit-Remaining:
+      - '25'
+      X-Weeklydownloadlimit-Limit:
+      - '1'
+      X-Weeklydownloadlimit-Remaining:
+      - '1'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Headers:
+      - Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type,
+        Access-Control-Request-Method, Authorization , Access-Control-Request-Headers
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: '{"symbols_returned":150,"base":"USD","data":{"AED":"3.672950","AFN":"76.150000","ALL":"117.000000","AMD":"504.219800","ANG":"1.797937","AOA":"536.680000","ARS":"64.666860","AUD":"1.662801","AWG":"1.800000","AZN":"1.700000","BAM":"1.799035","BBD":"2.028055","BCH":"0.004416","BDT":"85.320400","BGN":"1.799175","BHD":"0.377107","BIF":"1903.500000","BMD":"1.000000","BND":"1.439222","BOB":"6.925507","BRL":"5.275700","BSD":"1.004461","BTC":"0.000150","BWP":"12.138050","BYN":"2.611563","BZD":"2.024596","CAD":"1.427420","CDF":"1710.000000","CHF":"0.971800","CLF":"0.030201","CLP":"863.900000","CNY":"7.097300","COP":"4085.500000","CRC":"580.050000","CUP":"1.004457","CVE":"101.350000","CZK":"25.464000","DJF":"177.720000","DKK":"6.879030","DOP":"54.148170","DZD":"125.972800","EGP":"15.746700","ETB":"33.306560","ETH":"0.007320","EUR":"0.920980","FJD":"2.288750","GBP":"0.808225","GEL":"3.285000","GHS":"5.825664","GIP":"0.812880","GMD":"50.980000","GNF":"9587.070000","GTQ":"7.744137","GYD":"209.850500","HKD":"7.752350","HNL":"24.872030","HRK":"7.027800","HTG":"95.238360","HUF":"335.530000","IDR":"16624.500000","ILS":"3.656365","INR":"76.410500","IQD":"1199.056000","IRR":"42105.000000","ISK":"143.270000","JMD":"134.952300","JOD":"0.709700","JPY":"107.299500","KES":"105.850000","KGS":"84.898800","KHR":"4084.959000","KMF":"450.600000","KRW":"1233.630000","KWD":"0.312390","KYD":"0.836955","KZT":"450.201400","LAK":"8975.270000","LBP":"1518.615000","LKR":"190.335800","LRD":"198.000000","LSL":"17.960000","LTC":"0.025445","LYD":"1.411653","MAD":"10.292920","MDL":"18.506210","MGA":"3745.000000","MKD":"56.748250","MMK":"1407.682000","MOP":"8.019279","MRO":"0.000000","MRU":"37.790950","MUR":"39.404560","MVR":"15.410000","MWK":"739.722100","MXN":"24.422650","MYR":"4.357500","MZN":"66.800000","NAD":"17.960000","NGN":"367.000000","NIO":"34.010000","NOK":"10.452610","NPR":"122.789900","NZD":"1.698530","OMR":"0.385137","PAB":"1.004374","PEN":"3.481288","PGK":"3.442747","PHP":"50.815500","PKR":"167.863700","PLN":"4.214755","PYG":"6590.257000","QAR":"3.641000","RON":"4.452230","RSD":"108.275000","RUB":"79.106500","RWF":"956.568900","SAR":"3.762655","SBD":"8.336951","SCR":"12.627940","SDG":"55.325000","SEK":"10.120740","SGD":"1.434565","SLL":"9712.500000","SOS":"584.000000","SRD":"7.458000","SVC":"8.787873","SZL":"18.462900","THB":"33.005000","TJS":"10.259940","TMT":"3.510000","TND":"2.883000","TOP":"2.354400","TRY":"6.662580","TTD":"6.786364","TWD":"30.253000","TZS":"2314.100000","UAH":"27.675400","UGX":"3806.725000","UYU":"44.194660","UZS":"9545.000000","VEF":"0.000000","VES":"83272.000000","VND":"23700.020000","XAF":"603.386900","XCD":"2.702550","XOF":"603.373000","XPF":"109.650000","YER":"250.350000","ZAR":"18.554700","ZMW":"18.666730"}}'
+    http_version: null
+  recorded_at: Thu, 02 Apr 2020 13:56:25 GMT
+recorded_with: VCR 5.1.0

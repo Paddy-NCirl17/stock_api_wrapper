@@ -4,7 +4,8 @@ Gem::Specification.new do |spec|
   spec.name          = "stock_api_wrapper"
   spec.version       = StockApiWrapper::VERSION
   spec.authors       = ["Patrick Moran"]
-  spec.email         = ["p.jmoran@icloud.com"]
+  spec.email         = ["x16102860@student.ncirl.ie"]
+  spec.homepage      = ["https://rubygems.org/gems/stock_api_wrapper"]
   
 
   spec.summary       = %q{Gem to wrap alphavantage.com API}
