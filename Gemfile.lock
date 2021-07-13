@@ -8,7 +8,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
@@ -18,7 +18,7 @@ GEM
     json (2.3.0)
     minitest (5.14.0)
     multipart-post (2.1.1)
-    public_suffix (4.0.3)
+    public_suffix (4.0.6)
     safe_yaml (1.0.5)
     vcr (5.1.0)
     webmock (3.8.3)
@@ -28,6 +28,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   minitest
